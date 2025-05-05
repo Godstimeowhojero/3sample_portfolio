@@ -1,0 +1,60 @@
+.first-pick {
+    background-color: #e6e9ec;
+}
+
+.nav-item {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.display-5, .lead {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#profile {
+    border-radius: 50%;
+    height: 700px;
+    width: 510px;
+}
+
+#icon-grid {
+  font-family: "Comic Relief", system-ui;
+  font-weight: 200;
+  font-style: normal;
+}
+
+#mission {
+    font-family: "Comic Relief", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.center-footer {
+    text-align: center;
+    font-family: "Comic Relief", system-ui;
+    font-weight: 200;
+    font-style: normal;
+}
+
+#skill-pic {
+    width: 10000px;
+    height: 100px;
+    object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    #profile {
+        height: 435px;
+        width: 700px;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 900px) {
+    #profile {
+        height: 500px;
+        width: 600px;
+    }
+}
